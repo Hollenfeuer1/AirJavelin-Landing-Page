@@ -1,3 +1,10 @@
+body {
+    background-color: #fff !important;
+    }
+    .topic-page .page-body {
+        max-width: 1200px !important;
+        }
+
 /*****Begin Airjavelin*****/
 .airjav-banner{
 	max-width: 100%;
