@@ -11,27 +11,33 @@ body {
 }
 
 /*****Begin Airjavelin*****/
+/* AC Mobile Styling */
 @media (max-width: 440px) {
     .airjav-group1-text1 h1 {
         float: none !important;
         margin-top: 1rem;
         text-align: center;
     }
-    
+
     .airjav-guy {
-    float: none !important;
+        float: none !important;
     }
 
     .airjav-blog h1 {
         clear: both;
         padding-top: 5% !important;
     }
-    
+
     .airjav-iframe-container1 iframe {
-    max-width: 100%;
-    max-height: 200px;
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .airjav-two-cols {
+        display: block !important;
     }
 }
+/* End AC Mobile Styling */
 
 .airjav-banner {
     max-width: 100%;
@@ -69,6 +75,7 @@ body {
 }
 
 .airjav-group1-text1 h1 {
+    /* Changed to UX Red */
     color: #ec1b24;
     float: right;
 }
@@ -103,11 +110,13 @@ body {
 
 .airjav-list ul {
     color: black;
+    /* Corrected Font Size */
     font-size: 1em;
     line-height: 1.5em;
 }
 
 .airjav-list h1 {
+    /* Changed to UX Red */
     color: #ec1b24;
 }
 
